@@ -1,6 +1,7 @@
 ﻿
 // Написать программу, упорядочивания по убыванию элементы каждой строки двумерной массива.
 
+// Фун-я заполнения массива случайными числами
 void FillArray(int[,] array)
 {
     for(int i =0; i<array.GetLength(0);i++)
@@ -11,6 +12,8 @@ void FillArray(int[,] array)
         }
     }
 }
+
+// Фун-я вывода массива
 void PrintArray(int[,] array)
 {
     for(int i =0; i<array.GetLength(0);i++)
@@ -23,6 +26,7 @@ void PrintArray(int[,] array)
     }
 }
 
+// Фун-я выполняющая сортировку по убыванию элементов массива
 void DescendingOrdering(int[,] array)
 {
     for(int i =0; i<array.GetLength(0);i++)
