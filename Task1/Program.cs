@@ -1,6 +1,7 @@
 ﻿
 // Написать программу, которая обменивает элементы первой строки и последней строки
 
+// Фун-я заполнения массива случайными числами
 void FillArray(int[,] array)
 {
     for(int i =0; i<array.GetLength(0);i++)
@@ -11,6 +12,8 @@ void FillArray(int[,] array)
         }
     }
 }
+
+// Фун-я вывода массива
 void PrintArray(int[,] array)
 {
     for(int i =0; i<array.GetLength(0);i++)
@@ -23,6 +26,7 @@ void PrintArray(int[,] array)
     }
 }
 
+// Фун-я перестановки местами строк массива
 void swapString(int[,] array, int arg)
 {
     for(int i =0; i<array.GetLength(0);i++)
